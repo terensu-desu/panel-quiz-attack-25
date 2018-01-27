@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./css/materialize.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <header>
+      <nav class="center">
+        <h2 class="no-margin-top">Panel Quiz Attack 25!</h2>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="card-panel">
+        <div class="row center">
+          <div class="col s12 m6">
+            <table id="play-space" class="primary-table centered z-depth-1">
+              <tbody>
+                <tr class="squares">
+                  <td id="1">1</td>
+                  <td id="2">2</td>
+                  <td id="3">3</td>
+                  <td id="4">4</td>
+                  <td id="5">5</td>
+                </tr>
+                <tr class="squares">
+                  <td id="6">6</td>
+                  <td id="7">7</td>
+                  <td id="8">8</td>
+                  <td id="9">9</td>
+                  <td id="10">10</td>
+                </tr>
+                <tr class="squares">
+                  <td id="11">11</td>
+                  <td id="12">12</td>
+                  <td id="13">13</td>
+                  <td id="14">14</td>
+                  <td id="15">15</td>
+                </tr>
+                <tr class="squares">
+                  <td id="16">16</td>
+                  <td id="17">17</td>
+                  <td id="18">18</td>
+                  <td id="19">19</td>
+                  <td id="20">20</td>
+                </tr>
+                <tr class="squares">
+                  <td id="21">21</td>
+                  <td id="22">22</td>
+                  <td id="23">23</td>
+                  <td id="24">24</td>
+                  <td id="25">25</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col s12 m6">
+            <table class="primary-table centered z-depth-1">
+              <tbody>
+                <tr id="score-header">
+                  <td colspan=3><h3 class="no-margin-top no-margin-bot">Team Scores!</h3></td>
+                </tr>
+                <tr class="scores">
+                  <td class="green">Green: <span id="green-score"></span></td>
+                  <td class="pink">Pink: <span id="pink-score"></span></td>
+                  <td class="orange">Orange: <span id="orange-score"></span></td>
+                </tr>
+                <tr class="scores">
+                  <td class="purple">Purple: <span id="purple-score"></span></td>
+                  <td class="blue">Blue: <span id="blue-score"></span></td>
+                  <td class="red">Red: <span id="red-score"></span></td>
+                </tr>
+              </tbody>
+            </table>
+            <table id="button-row" class="centered z-depth-1">
+              <tbody>
+                <tr>
+                  <td><a id="green" class="btn green">Green</a></td>
+                  <td><a id="pink" class="btn pink">Pink</a></td>
+                  <td><a id="orange" class="btn orange">Orange</a></td>
+                </tr>
+                <tr>
+                  <td><a id="purple" class="btn purple">Purple</a></td>
+                  <td><a id="blue" class="btn blue">Blue</a></td>
+                  <td><a id="red" class="btn red">Red</a></td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="box">
+              <a id="erase" class="btn red accent-4">Erase</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+body {
+  background-color: #e0e0e0;
+}
+
+nav {
+  background-color: #1b5e20;
+}
+
+.container {
+  margin-top: 10vh;
+}
+
+table {
+  margin: 20px 0 20px;
+}
+
+tbody {
+  background-color: #fafafa;
+}
+
+.card-panel {
+  border-radius: 10px;
+}
+
+#button-row td {
+  border-bottom: none !important; 
+}
+
+.squares td {
+  font-size: 35px;
+  text-align: center;
+  border-radius: 0 !important;
+}
+
+#score-header {
+  border: 0 !important;
+  color: white;
+  background: repeating-linear-gradient(
+    145deg,
+    #1b5e20,
+    #1b5e20 30px,
+    #757575 30px,
+    #757575 40px
+  );
+}
+
+.scores td {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  border-radius: 0 !important;
+}
+
+.no-margin-top {
+  margin-top: 0 !important;
+}
+
+.no-margin-bot {
+  margin-bottom: 0 !important;
+}
+
+.active {
+  border-bottom: 5px solid gold;
+}
+
+.box {
+  margin-top: 10px;
+}
